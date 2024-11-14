@@ -42,7 +42,7 @@ def main(mappings):
                     brand_product_pred_cls = get_corresponding_cls(
                         mappings["categories"], brand_prod_pred_lbl
                     )
-                    st.subheader("Category: ")
+                    st.subheader("Brand/product Category Targeted by that Emotion: ")
                     st.write(brand_product_pred_cls)
         else:
             st.error("Please enter some text!")
